@@ -1,0 +1,9 @@
+name: rtx3060
+gpu: NVIDIA GeForce RTX 3060
+vram_gb: 12
+ram_gb: 29
+cpu_threads: 20
+compute_capability: "8.6"
+clef_inference_quantization: int8
+split_backbone_k: 24
+max_seq_len: 1024

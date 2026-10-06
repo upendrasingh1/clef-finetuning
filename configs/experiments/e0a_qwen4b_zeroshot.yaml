@@ -1,0 +1,10 @@
+id: e0a
+title: "qwen3.5-4b zero-shot"
+article: 2
+track: baseline
+model: qwen3.5-4b
+method: zero_shot
+precision: bf16
+datasets: [abt_buy, amazon_google, walmart_amazon, dblp_acm, dblp_scholar, wdc_products]
+hardware: rtx3060
+seed: 42

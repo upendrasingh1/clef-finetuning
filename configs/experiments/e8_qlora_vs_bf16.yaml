@@ -1,0 +1,10 @@
+id: e8
+title: "4-bit vs bf16 nuance: QLoRA vs bf16 reference"
+article: 3
+track: trl_a
+model: qwen3.5-9b
+method: trl_sft
+precision: nf4
+datasets: [abt_buy, amazon_google, walmart_amazon, dblp_acm, dblp_scholar, wdc_products]
+hardware: rtx3060
+seed: 42

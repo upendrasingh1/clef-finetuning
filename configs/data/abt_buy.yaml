@@ -1,0 +1,5 @@
+name: abt_buy
+family: deepmatcher
+domain: product
+kind: textual
+url: http://pages.cs.wisc.edu/~anhai/data1/deepmatcher_data/Textual/Abt-Buy/abt_buy_exp_data.zip

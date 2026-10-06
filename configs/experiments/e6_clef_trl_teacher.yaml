@@ -1,0 +1,12 @@
+id: e6
+title: "E4 recipe on 10% gold + TRL teacher labels"
+article: 5
+track: trl_b
+model: clef-flash
+method: clef_split_lora
+precision: bf16
+datasets: [abt_buy, amazon_google, walmart_amazon, dblp_acm, dblp_scholar, wdc_products]
+hardware: rtx3060
+seed: 42
+teacher: e2a
+gold_fraction: 0.1

@@ -1,0 +1,11 @@
+id: e7
+title: "GRPO via TRL adapted to Clef, from E4"
+article: 5
+track: trl_c
+model: clef-flash
+method: trl_clef_grpo
+precision: bf16
+datasets: [abt_buy, amazon_google, walmart_amazon, dblp_acm, dblp_scholar, wdc_products]
+hardware: rtx3060
+seed: 42
+init_from: e4

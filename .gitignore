@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Datasets, weights, activation caches, checkpoints: never committed
+/data/
+/artifacts/
+/checkpoints/
+/wandb/
+/runs/
+*.safetensors
+*.gguf
+*.pt
+*.bin
+
+# Results: only small metrics files are committed
+results/**/*
+!results/**/
+!results/**/metrics.json
+!results/scoreboard.md
+!results/.gitkeep
+
+.env
+.ipynb_checkpoints/

@@ -1,0 +1,5 @@
+name: walmart_amazon
+family: deepmatcher
+domain: electronics
+kind: structured
+url: http://pages.cs.wisc.edu/~anhai/data1/deepmatcher_data/Structured/Walmart-Amazon/walmart_amazon_exp_data.zip

@@ -1,0 +1,10 @@
+id: e3
+title: "Clef-flash head-only training"
+article: 4
+track: clef_native
+model: clef-flash
+method: clef_head_only
+precision: bf16
+datasets: [abt_buy, amazon_google, walmart_amazon, dblp_acm, dblp_scholar, wdc_products]
+hardware: rtx3060
+seed: 42

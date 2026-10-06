@@ -1,0 +1,11 @@
+id: e2b
+title: "TRL GRPO from E1b"
+article: 3
+track: trl_a
+model: qwen3.5-9b
+method: trl_grpo
+precision: nf4
+datasets: [abt_buy, amazon_google, walmart_amazon, dblp_acm, dblp_scholar, wdc_products]
+hardware: rtx3060
+seed: 42
+init_from: e1b

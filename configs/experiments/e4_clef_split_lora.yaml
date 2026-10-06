@@ -1,0 +1,10 @@
+id: e4
+title: "Clef-flash split-backbone LoRA + head, CE + Brier"
+article: 4
+track: clef_native
+model: clef-flash
+method: clef_split_lora
+precision: bf16
+datasets: [abt_buy, amazon_google, walmart_amazon, dblp_acm, dblp_scholar, wdc_products]
+hardware: rtx3060
+seed: 42

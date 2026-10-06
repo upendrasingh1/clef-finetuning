@@ -1,0 +1,16 @@
+clef-flash:
+  hf_id: Cloudflare/clef-flash
+  revision: 17f0b0ad64efb65d273590632833508766b2aae6
+  kind: decision
+clef:
+  hf_id: Cloudflare/clef
+  revision: 2f3de3dd85f379784083b0814d997ab627200f0c
+  kind: decision
+qwen3.5-4b:
+  hf_id: Qwen/Qwen3.5-4B
+  revision: 851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a
+  kind: generative
+qwen3.5-9b:
+  hf_id: Qwen/Qwen3.5-9B
+  revision: c202236235762e1c871ad0ccb60c8ee5ba337b9a
+  kind: generative

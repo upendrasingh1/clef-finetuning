@@ -1,0 +1,5 @@
+name: dblp_scholar
+family: deepmatcher
+domain: citation
+kind: structured
+url: http://pages.cs.wisc.edu/~anhai/data1/deepmatcher_data/Structured/DBLP-GoogleScholar/dblp_scholar_exp_data.zip

@@ -1,0 +1,19 @@
+clef-finetuning
+Copyright 2026 Upendra Singh
+
+This project is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This project includes third-party code:
+
+- src/clef_finetuning/models/clef_upstream/joint_schema_model.py
+  Copied unmodified from Cloudflare Clef (https://huggingface.co/Cloudflare/clef-flash,
+  revision 17f0b0ad64efb65d273590632833508766b2aae6), licensed under the Apache License, Version 2.0.
+  Copyright Cloudflare, Inc.
+
+This project uses, but does not redistribute, the following model weights:
+
+- Cloudflare/clef and Cloudflare/clef-flash (Apache License 2.0)
+- Qwen/Qwen3.5-4B and Qwen/Qwen3.5-9B (see their model cards for license terms)
+
+Benchmark datasets are downloaded by scripts/download_data.py from their original sources and are not
+redistributed. See each dataset's source for its terms.

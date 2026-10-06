@@ -1,0 +1,10 @@
+id: e1b
+title: "TRL SFT, Qwen3.5-9B QLoRA"
+article: 3
+track: trl_a
+model: qwen3.5-9b
+method: trl_sft
+precision: nf4
+datasets: [abt_buy, amazon_google, walmart_amazon, dblp_acm, dblp_scholar, wdc_products]
+hardware: rtx3060
+seed: 42

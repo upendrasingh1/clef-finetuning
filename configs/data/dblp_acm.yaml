@@ -1,0 +1,5 @@
+name: dblp_acm
+family: deepmatcher
+domain: citation
+kind: structured
+url: http://pages.cs.wisc.edu/~anhai/data1/deepmatcher_data/Structured/DBLP-ACM/dblp_acm_exp_data.zip

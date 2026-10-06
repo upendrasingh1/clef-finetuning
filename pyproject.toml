@@ -1,0 +1,40 @@
+[project]
+name = "clef-finetuning"
+version = "0.0.1"
+description = "Fine-tuning Cloudflare Clef decision models on a 12 GB GPU for real-time entity resolution, with Hugging Face TRL comparisons."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/clef_finetuning"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["gpu: requires a CUDA GPU and downloaded model weights"]
+addopts = "-m 'not gpu'"
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+extend-exclude = ["src/clef_finetuning/models/clef_upstream"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.9",
+]
+
+[tool.uv]
+exclude-newer = "7 days"
